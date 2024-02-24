@@ -2,7 +2,7 @@ name: Angular + Lighthouse
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   lhci:
@@ -23,7 +23,7 @@ jobs:
       #     npm install -g @lhci/cli@0.13.x
       #     npm run lhci
 
-       - name: Audit URLs using Lighthouse
+      - name: Audit URLs using Lighthouse
         uses: treosh/lighthouse-ci-action@v11
         with:
           urls: |
