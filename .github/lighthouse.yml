@@ -2,7 +2,7 @@ name: Angular + Lighthouse
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   lhci:
