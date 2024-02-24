@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Use Node.js 18
         uses: actions/setup-node@v4
         with:
@@ -17,6 +18,12 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Run SSR server
+        run: npm run serve:ssr
 
       # - name: run Lighthouse CI
       #   run: |
@@ -26,6 +33,7 @@ jobs:
       - name: Audit URLs using Lighthouse
         uses: treosh/lighthouse-ci-action@v11
         with:
+          runs:
           urls: |
             http://localhost:4000/
           uploadArtifacts: true # save results as an action artifacts
