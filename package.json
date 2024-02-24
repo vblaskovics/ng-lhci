@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr": "node dist/ng-lhci/server/server.mjs",
-    "lhci": "npm run build && npx lhci autorun --config=./lighthouserc.js"
+    "lhci": "npm run build && npx lhci autorun --config=./lighthouserc.json"
   },
   "private": true,
   "dependencies": {
