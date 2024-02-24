@@ -26,11 +26,7 @@ jobs:
         uses: treosh/lighthouse-ci-action@v11
         with:
           configPath: ./lighthouserc.json
-          uploadArtifacts: true # save results as an action artifacts
-          temporaryPublicStorage: true # upload lighthouse report to the temporary storage
 
-
-      # - name: run Lighthouse CI
-      #   run: |
-      #     npm install -g @lhci/cli@0.13.x
-      #     npm run lhci
+      - name: echo test
+        run: |
+          echo "## Hello world 🌍" >> $GITHUB_STEP_SUMMARY
