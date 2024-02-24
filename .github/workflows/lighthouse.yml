@@ -24,11 +24,7 @@ jobs:
 
       - name: Run SSR server
         run: npm run serve:ssr
-
-      # - name: run Lighthouse CI
-      #   run: |
-      #     npm install -g @lhci/cli@0.13.x
-      #     npm run lhci
+        background: true
 
       - name: Audit URLs using Lighthouse
         uses: treosh/lighthouse-ci-action@v11
@@ -39,3 +35,9 @@ jobs:
           uploadArtifacts: true # save results as an action artifacts
           temporaryPublicStorage: true # upload lighthouse report to the temporary storage
           configPath: ./lighthouserc.json
+
+
+      # - name: run Lighthouse CI
+      #   run: |
+      #     npm install -g @lhci/cli@0.13.x
+      #     npm run lhci
