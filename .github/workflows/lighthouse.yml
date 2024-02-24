@@ -22,11 +22,8 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Run SSR server
-        run: npm run serve:ssr
-        background: true
-
       - name: Audit URLs using Lighthouse
+        run: npm run serve:ssr
         uses: treosh/lighthouse-ci-action@v11
         with:
           runs:
