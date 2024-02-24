@@ -30,7 +30,3 @@ jobs:
           configPath: ./lighthouserc.json
           temporaryPublicStorage: true
 
-
-      - name: echo test
-        run: |
-          echo "## Hello world 🌍" >> $GITHUB_STEP_SUMMARY
