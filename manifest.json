@@ -1,0 +1,41 @@
+[
+  {
+    "url": "http://localhost:4000/",
+    "isRepresentativeRun": false,
+    "htmlPath": "C:\\Projects\\NgPlayground\\ng-lhci\\localhost-_-2024_02_24_18_28_02.report.html",
+    "jsonPath": "C:\\Projects\\NgPlayground\\ng-lhci\\localhost-_-2024_02_24_18_28_02.report.json",
+    "summary": {
+      "performance": 0.95,
+      "accessibility": 0.93,
+      "best-practices": 1,
+      "seo": 0.92,
+      "pwa": 0.38
+    }
+  },
+  {
+    "url": "http://localhost:4000/",
+    "isRepresentativeRun": false,
+    "htmlPath": "C:\\Projects\\NgPlayground\\ng-lhci\\localhost-_-2024_02_24_18_28_13.report.html",
+    "jsonPath": "C:\\Projects\\NgPlayground\\ng-lhci\\localhost-_-2024_02_24_18_28_13.report.json",
+    "summary": {
+      "performance": 0.96,
+      "accessibility": 0.93,
+      "best-practices": 1,
+      "seo": 0.92,
+      "pwa": 0.38
+    }
+  },
+  {
+    "url": "http://localhost:4000/",
+    "isRepresentativeRun": true,
+    "htmlPath": "C:\\Projects\\NgPlayground\\ng-lhci\\localhost-_-2024_02_24_18_28_24.report.html",
+    "jsonPath": "C:\\Projects\\NgPlayground\\ng-lhci\\localhost-_-2024_02_24_18_28_24.report.json",
+    "summary": {
+      "performance": 0.96,
+      "accessibility": 0.93,
+      "best-practices": 1,
+      "seo": 0.92,
+      "pwa": 0.38
+    }
+  }
+]
