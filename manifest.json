@@ -2,8 +2,8 @@
   {
     "url": "http://localhost:4000/",
     "isRepresentativeRun": false,
-    "htmlPath": "C:\\Projects\\NgPlayground\\ng-lhci\\localhost-_-2024_02_24_18_28_02.report.html",
-    "jsonPath": "C:\\Projects\\NgPlayground\\ng-lhci\\localhost-_-2024_02_24_18_28_02.report.json",
+    "htmlPath": "C:\\Projects\\NgPlayground\\ng-lhci\\localhost-_-2024_02_24_20_17_48.report.html",
+    "jsonPath": "C:\\Projects\\NgPlayground\\ng-lhci\\localhost-_-2024_02_24_20_17_48.report.json",
     "summary": {
       "performance": 0.95,
       "accessibility": 0.93,
@@ -15,8 +15,8 @@
   {
     "url": "http://localhost:4000/",
     "isRepresentativeRun": false,
-    "htmlPath": "C:\\Projects\\NgPlayground\\ng-lhci\\localhost-_-2024_02_24_18_28_13.report.html",
-    "jsonPath": "C:\\Projects\\NgPlayground\\ng-lhci\\localhost-_-2024_02_24_18_28_13.report.json",
+    "htmlPath": "C:\\Projects\\NgPlayground\\ng-lhci\\localhost-_-2024_02_24_20_18_10.report.html",
+    "jsonPath": "C:\\Projects\\NgPlayground\\ng-lhci\\localhost-_-2024_02_24_20_18_10.report.json",
     "summary": {
       "performance": 0.96,
       "accessibility": 0.93,
@@ -28,8 +28,8 @@
   {
     "url": "http://localhost:4000/",
     "isRepresentativeRun": true,
-    "htmlPath": "C:\\Projects\\NgPlayground\\ng-lhci\\localhost-_-2024_02_24_18_28_24.report.html",
-    "jsonPath": "C:\\Projects\\NgPlayground\\ng-lhci\\localhost-_-2024_02_24_18_28_24.report.json",
+    "htmlPath": "C:\\Projects\\NgPlayground\\ng-lhci\\localhost-_-2024_02_24_20_18_00.report.html",
+    "jsonPath": "C:\\Projects\\NgPlayground\\ng-lhci\\localhost-_-2024_02_24_20_18_00.report.json",
     "summary": {
       "performance": 0.96,
       "accessibility": 0.93,
